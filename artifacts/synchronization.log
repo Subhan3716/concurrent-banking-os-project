@@ -1,0 +1,209 @@
+324277639090 Regular-B acquired mutex for withdraw on ACC-100
+324277652247 Regular-B withdrew 150 on ACC-100: 1000 -> 850
+324277652273 VIP-D acquired mutex for deposit on ACC-100
+324277667971 VIP-D deposited 200 on ACC-100: 850 -> 1050
+324277667997 Regular-A acquired mutex for deposit on ACC-100
+324277684059 Regular-A deposited 300 on ACC-100: 1050 -> 1350
+324277684083 Premium-C acquired mutex for withdraw on ACC-100
+324277700161 Premium-C withdrew 400 on ACC-100: 1350 -> 950
+
+324277701054 CorporatePayroll-000 entered deposit semaphore; active=1
+324277701197 CorporatePayroll-001 entered deposit semaphore; active=2
+324277716285 CorporatePayroll-001 acquired mutex for deposit on EMP-001
+324277716292 CorporatePayroll-000 acquired mutex for deposit on EMP-000
+324277731858 CorporatePayroll-001 deposited 200 on EMP-001: 0 -> 200
+324277731868 CorporatePayroll-001 left deposit semaphore; active=1
+324277731887 CorporatePayroll-000 deposited 200 on EMP-000: 0 -> 200
+324277731926 CorporatePayroll-005 entered deposit semaphore; active=2
+324277731942 CorporatePayroll-000 left deposit semaphore; active=1
+324277732008 CorporatePayroll-007 entered deposit semaphore; active=2
+324277747969 CorporatePayroll-007 acquired mutex for deposit on EMP-007
+324277748006 CorporatePayroll-005 acquired mutex for deposit on EMP-005
+324277763989 CorporatePayroll-007 deposited 200 on EMP-007: 0 -> 200
+324277763996 CorporatePayroll-007 left deposit semaphore; active=1
+324277764014 CorporatePayroll-005 deposited 200 on EMP-005: 0 -> 200
+324277764022 CorporatePayroll-005 left deposit semaphore; active=0
+324277764042 CorporatePayroll-004 entered deposit semaphore; active=1
+324277764100 CorporatePayroll-002 entered deposit semaphore; active=2
+324277779916 CorporatePayroll-002 acquired mutex for deposit on EMP-002
+324277779926 CorporatePayroll-004 acquired mutex for deposit on EMP-004
+324277795849 CorporatePayroll-002 deposited 200 on EMP-002: 0 -> 200
+324277795853 CorporatePayroll-004 deposited 200 on EMP-004: 0 -> 200
+324277795858 CorporatePayroll-002 left deposit semaphore; active=1
+324277795872 CorporatePayroll-004 left deposit semaphore; active=0
+324277795957 CorporatePayroll-006 entered deposit semaphore; active=1
+324277795975 CorporatePayroll-003 entered deposit semaphore; active=2
+324277811947 CorporatePayroll-006 acquired mutex for deposit on EMP-006
+324277811977 CorporatePayroll-003 acquired mutex for deposit on EMP-003
+324277827086 CorporatePayroll-006 deposited 200 on EMP-006: 0 -> 200
+324277827108 CorporatePayroll-006 left deposit semaphore; active=1
+324277827112 CorporatePayroll-003 deposited 200 on EMP-003: 0 -> 200
+324277827121 CorporatePayroll-003 left deposit semaphore; active=0
+324277827357 CorporatePayroll-015 entered deposit semaphore; active=1
+324277827377 CorporatePayroll-009 entered deposit semaphore; active=2
+324277843020 CorporatePayroll-015 acquired mutex for deposit on EMP-015
+324277843053 CorporatePayroll-009 acquired mutex for deposit on EMP-009
+324277858854 CorporatePayroll-009 deposited 200 on EMP-009: 0 -> 200
+324277858858 CorporatePayroll-015 deposited 200 on EMP-015: 0 -> 200
+324277858861 CorporatePayroll-009 left deposit semaphore; active=1
+324277858868 CorporatePayroll-015 left deposit semaphore; active=0
+324277858921 CorporatePayroll-011 entered deposit semaphore; active=1
+324277858936 CorporatePayroll-010 entered deposit semaphore; active=2
+324277874916 CorporatePayroll-010 acquired mutex for deposit on EMP-010
+324277874970 CorporatePayroll-011 acquired mutex for deposit on EMP-011
+324277890914 CorporatePayroll-010 deposited 200 on EMP-010: 0 -> 200
+324277890934 CorporatePayroll-011 deposited 200 on EMP-011: 0 -> 200
+324277890938 CorporatePayroll-010 left deposit semaphore; active=1
+324277890959 CorporatePayroll-011 left deposit semaphore; active=0
+324277890982 CorporatePayroll-012 entered deposit semaphore; active=1
+324277890991 CorporatePayroll-024 entered deposit semaphore; active=2
+324277907059 CorporatePayroll-012 acquired mutex for deposit on EMP-012
+324277907071 CorporatePayroll-024 acquired mutex for deposit on EMP-024
+324277920161 CorporatePayroll-012 deposited 200 on EMP-012: 0 -> 200
+324277920166 CorporatePayroll-024 deposited 200 on EMP-024: 0 -> 200
+324277920170 CorporatePayroll-012 left deposit semaphore; active=1
+324277920177 CorporatePayroll-024 left deposit semaphore; active=0
+324277920215 CorporatePayroll-014 entered deposit semaphore; active=1
+324277920227 CorporatePayroll-008 entered deposit semaphore; active=2
+324277931892 CorporatePayroll-014 acquired mutex for deposit on EMP-014
+324277931920 CorporatePayroll-008 acquired mutex for deposit on EMP-008
+324277937189 CorporatePayroll-008 deposited 200 on EMP-008: 0 -> 200
+324277937194 CorporatePayroll-014 deposited 200 on EMP-014: 0 -> 200
+324277937197 CorporatePayroll-008 left deposit semaphore; active=1
+324277937204 CorporatePayroll-014 left deposit semaphore; active=0
+324277937258 CorporatePayroll-030 entered deposit semaphore; active=1
+324277937297 CorporatePayroll-032 entered deposit semaphore; active=2
+324277951883 CorporatePayroll-030 acquired mutex for deposit on EMP-030
+324277951887 CorporatePayroll-032 acquired mutex for deposit on EMP-032
+324277971899 CorporatePayroll-030 deposited 200 on EMP-030: 0 -> 200
+324277971908 CorporatePayroll-030 left deposit semaphore; active=1
+324277971914 CorporatePayroll-032 deposited 200 on EMP-032: 0 -> 200
+324277971919 CorporatePayroll-032 left deposit semaphore; active=0
+324277971929 CorporatePayroll-018 entered deposit semaphore; active=1
+324277971942 CorporatePayroll-019 entered deposit semaphore; active=2
+324277976926 CorporatePayroll-018 acquired mutex for deposit on EMP-018
+324277977003 CorporatePayroll-019 acquired mutex for deposit on EMP-019
+324277992978 CorporatePayroll-019 deposited 200 on EMP-019: 0 -> 200
+324277992985 CorporatePayroll-019 left deposit semaphore; active=1
+324277993005 CorporatePayroll-018 deposited 200 on EMP-018: 0 -> 200
+324277993042 CorporatePayroll-020 entered deposit semaphore; active=2
+324277993065 CorporatePayroll-018 left deposit semaphore; active=1
+324277993115 CorporatePayroll-041 entered deposit semaphore; active=2
+324278009020 CorporatePayroll-041 acquired mutex for deposit on EMP-041
+324278009025 CorporatePayroll-020 acquired mutex for deposit on EMP-020
+324278024785 CorporatePayroll-041 deposited 200 on EMP-041: 0 -> 200
+324278024794 CorporatePayroll-041 left deposit semaphore; active=1
+324278024798 CorporatePayroll-020 deposited 200 on EMP-020: 0 -> 200
+324278024803 CorporatePayroll-020 left deposit semaphore; active=0
+324278024825 CorporatePayroll-042 entered deposit semaphore; active=1
+324278024841 CorporatePayroll-043 entered deposit semaphore; active=2
+324278040903 CorporatePayroll-042 acquired mutex for deposit on EMP-042
+324278040908 CorporatePayroll-043 acquired mutex for deposit on EMP-043
+324278056984 CorporatePayroll-042 deposited 200 on EMP-042: 0 -> 200
+324278056989 CorporatePayroll-043 deposited 200 on EMP-043: 0 -> 200
+324278057043 CorporatePayroll-042 left deposit semaphore; active=1
+324278057119 CorporatePayroll-043 left deposit semaphore; active=0
+324278057141 CorporatePayroll-025 entered deposit semaphore; active=1
+324278057169 CorporatePayroll-013 entered deposit semaphore; active=2
+324278073069 CorporatePayroll-013 acquired mutex for deposit on EMP-013
+324278073074 CorporatePayroll-025 acquired mutex for deposit on EMP-025
+324278088883 CorporatePayroll-025 deposited 200 on EMP-025: 0 -> 200
+324278088890 CorporatePayroll-013 deposited 200 on EMP-013: 0 -> 200
+324278088894 CorporatePayroll-025 left deposit semaphore; active=1
+324278088901 CorporatePayroll-013 left deposit semaphore; active=0
+324278088926 CorporatePayroll-027 entered deposit semaphore; active=1
+324278088935 CorporatePayroll-026 entered deposit semaphore; active=2
+324278104731 CorporatePayroll-026 acquired mutex for deposit on EMP-026
+324278104760 CorporatePayroll-027 acquired mutex for deposit on EMP-027
+324278120789 CorporatePayroll-026 deposited 200 on EMP-026: 0 -> 200
+324278120794 CorporatePayroll-027 deposited 200 on EMP-027: 0 -> 200
+324278120797 CorporatePayroll-026 left deposit semaphore; active=1
+324278120817 CorporatePayroll-027 left deposit semaphore; active=0
+324278120841 CorporatePayroll-029 entered deposit semaphore; active=1
+324278120872 CorporatePayroll-028 entered deposit semaphore; active=2
+324278136847 CorporatePayroll-028 acquired mutex for deposit on EMP-028
+324278136853 CorporatePayroll-029 acquired mutex for deposit on EMP-029
+324278152936 CorporatePayroll-028 deposited 200 on EMP-028: 0 -> 200
+324278152941 CorporatePayroll-029 deposited 200 on EMP-029: 0 -> 200
+324278152944 CorporatePayroll-028 left deposit semaphore; active=1
+324278152950 CorporatePayroll-029 left deposit semaphore; active=0
+324278152988 CorporatePayroll-031 entered deposit semaphore; active=1
+324278153043 CorporatePayroll-016 entered deposit semaphore; active=2
+324278168810 CorporatePayroll-031 acquired mutex for deposit on EMP-031
+324278168862 CorporatePayroll-016 acquired mutex for deposit on EMP-016
+324278184602 CorporatePayroll-031 deposited 200 on EMP-031: 0 -> 200
+324278184606 CorporatePayroll-016 deposited 200 on EMP-016: 0 -> 200
+324278184609 CorporatePayroll-031 left deposit semaphore; active=1
+324278184615 CorporatePayroll-016 left deposit semaphore; active=0
+324278184633 CorporatePayroll-017 entered deposit semaphore; active=1
+324278184642 CorporatePayroll-033 entered deposit semaphore; active=2
+324278200667 CorporatePayroll-033 acquired mutex for deposit on EMP-033
+324278200687 CorporatePayroll-017 acquired mutex for deposit on EMP-017
+324278216595 CorporatePayroll-017 deposited 200 on EMP-017: 0 -> 200
+324278216599 CorporatePayroll-033 deposited 200 on EMP-033: 0 -> 200
+324278216602 CorporatePayroll-017 left deposit semaphore; active=1
+324278216608 CorporatePayroll-033 left deposit semaphore; active=0
+324278216628 CorporatePayroll-034 entered deposit semaphore; active=1
+324278216655 CorporatePayroll-035 entered deposit semaphore; active=2
+324278231854 CorporatePayroll-034 acquired mutex for deposit on EMP-034
+324278231907 CorporatePayroll-035 acquired mutex for deposit on EMP-035
+324278247829 CorporatePayroll-034 deposited 200 on EMP-034: 0 -> 200
+324278247834 CorporatePayroll-035 deposited 200 on EMP-035: 0 -> 200
+324278247907 CorporatePayroll-034 left deposit semaphore; active=1
+324278247931 CorporatePayroll-035 left deposit semaphore; active=0
+324278247959 CorporatePayroll-036 entered deposit semaphore; active=1
+324278248009 CorporatePayroll-037 entered deposit semaphore; active=2
+324278263740 CorporatePayroll-037 acquired mutex for deposit on EMP-037
+324278263752 CorporatePayroll-036 acquired mutex for deposit on EMP-036
+324278279446 CorporatePayroll-036 deposited 200 on EMP-036: 0 -> 200
+324278279451 CorporatePayroll-037 deposited 200 on EMP-037: 0 -> 200
+324278279454 CorporatePayroll-036 left deposit semaphore; active=1
+324278279460 CorporatePayroll-037 left deposit semaphore; active=0
+324278279484 CorporatePayroll-039 entered deposit semaphore; active=1
+324278279506 CorporatePayroll-038 entered deposit semaphore; active=2
+324278295490 CorporatePayroll-038 acquired mutex for deposit on EMP-038
+324278295510 CorporatePayroll-039 acquired mutex for deposit on EMP-039
+324278311516 CorporatePayroll-038 deposited 200 on EMP-038: 0 -> 200
+324278311523 CorporatePayroll-039 deposited 200 on EMP-039: 0 -> 200
+324278311565 CorporatePayroll-038 left deposit semaphore; active=1
+324278311582 CorporatePayroll-039 left deposit semaphore; active=0
+324278311659 CorporatePayroll-021 entered deposit semaphore; active=1
+324278311684 CorporatePayroll-040 entered deposit semaphore; active=2
+324278327098 CorporatePayroll-021 acquired mutex for deposit on EMP-021
+324278327130 CorporatePayroll-040 acquired mutex for deposit on EMP-040
+324278343211 CorporatePayroll-021 deposited 200 on EMP-021: 0 -> 200
+324278343216 CorporatePayroll-040 deposited 200 on EMP-040: 0 -> 200
+324278343219 CorporatePayroll-021 left deposit semaphore; active=1
+324278343225 CorporatePayroll-040 left deposit semaphore; active=0
+324278343250 CorporatePayroll-023 entered deposit semaphore; active=1
+324278343324 CorporatePayroll-022 entered deposit semaphore; active=2
+324278358933 CorporatePayroll-022 acquired mutex for deposit on EMP-022
+324278358940 CorporatePayroll-023 acquired mutex for deposit on EMP-023
+324278375056 CorporatePayroll-022 deposited 200 on EMP-022: 0 -> 200
+324278375063 CorporatePayroll-022 left deposit semaphore; active=1
+324278375086 CorporatePayroll-023 deposited 200 on EMP-023: 0 -> 200
+324278375094 CorporatePayroll-044 entered deposit semaphore; active=2
+324278375113 CorporatePayroll-023 left deposit semaphore; active=1
+324278375138 CorporatePayroll-045 entered deposit semaphore; active=2
+324278391087 CorporatePayroll-045 acquired mutex for deposit on EMP-045
+324278391121 CorporatePayroll-044 acquired mutex for deposit on EMP-044
+324278407276 CorporatePayroll-045 deposited 200 on EMP-045: 0 -> 200
+324278407297 CorporatePayroll-045 left deposit semaphore; active=1
+324278407323 CorporatePayroll-046 entered deposit semaphore; active=2
+324278407328 CorporatePayroll-044 deposited 200 on EMP-044: 0 -> 200
+324278407333 CorporatePayroll-044 left deposit semaphore; active=1
+324278407356 CorporatePayroll-048 entered deposit semaphore; active=2
+324278423344 CorporatePayroll-048 acquired mutex for deposit on EMP-048
+324278423374 CorporatePayroll-046 acquired mutex for deposit on EMP-046
+324278439486 CorporatePayroll-046 deposited 200 on EMP-046: 0 -> 200
+324278439495 CorporatePayroll-046 left deposit semaphore; active=1
+324278439502 CorporatePayroll-048 deposited 200 on EMP-048: 0 -> 200
+324278439508 CorporatePayroll-048 left deposit semaphore; active=0
+324278439533 CorporatePayroll-047 entered deposit semaphore; active=1
+324278439581 CorporatePayroll-049 entered deposit semaphore; active=2
+324278453357 CorporatePayroll-049 acquired mutex for deposit on EMP-049
+324278453408 CorporatePayroll-047 acquired mutex for deposit on EMP-047
+324278470249 CorporatePayroll-047 deposited 200 on EMP-047: 0 -> 200
+324278470258 CorporatePayroll-049 deposited 200 on EMP-049: 0 -> 200
+324278470263 CorporatePayroll-047 left deposit semaphore; active=1
+324278470268 CorporatePayroll-049 left deposit semaphore; active=0

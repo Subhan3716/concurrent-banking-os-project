@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1230" height="130">
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<text x="20" y="24" font-size="18" fill="#0f172a">Round Robin Gantt Chart</text>
+<text x="20" y="60" font-size="12" fill="#334155">cpu timeline</text>
+<rect x="80" y="40" width="140" height="30" fill="#0b6e4f" rx="6"/>
+<text x="150" y="60" text-anchor="middle" font-size="12" fill="#ffffff">R1</text>
+<rect x="220" y="40" width="140" height="30" fill="#b80c09" rx="6"/>
+<text x="290" y="60" text-anchor="middle" font-size="12" fill="#ffffff">P1</text>
+<rect x="360" y="40" width="140" height="30" fill="#3a86ff" rx="6"/>
+<text x="430" y="60" text-anchor="middle" font-size="12" fill="#ffffff">V1</text>
+<rect x="500" y="40" width="140" height="30" fill="#0b6e4f" rx="6"/>
+<text x="570" y="60" text-anchor="middle" font-size="12" fill="#ffffff">R1</text>
+<rect x="640" y="40" width="140" height="30" fill="#ff9f1c" rx="6"/>
+<text x="710" y="60" text-anchor="middle" font-size="12" fill="#ffffff">C1</text>
+<rect x="780" y="40" width="140" height="30" fill="#8338ec" rx="6"/>
+<text x="850" y="60" text-anchor="middle" font-size="12" fill="#ffffff">R2</text>
+<rect x="920" y="40" width="70" height="30" fill="#b80c09" rx="6"/>
+<text x="955" y="60" text-anchor="middle" font-size="12" fill="#ffffff">P1</text>
+<rect x="990" y="40" width="140" height="30" fill="#ff9f1c" rx="6"/>
+<text x="1060" y="60" text-anchor="middle" font-size="12" fill="#ffffff">C1</text>
+<rect x="1130" y="40" width="70" height="30" fill="#ff9f1c" rx="6"/>
+<text x="1165" y="60" text-anchor="middle" font-size="12" fill="#ffffff">C1</text>
+<line x1="80" y1="75" x2="80" y2="82" stroke="#1f2937" stroke-width="1"/>
+<text x="80" y="100" text-anchor="middle" font-size="11" fill="#1f2937">0</text>
+<line x1="150" y1="75" x2="150" y2="82" stroke="#1f2937" stroke-width="1"/>
+<text x="150" y="100" text-anchor="middle" font-size="11" fill="#1f2937">1</text>
+<line x1="220" y1="75" x2="220" y2="82" stroke="#1f2937" stroke-width="1"/>
+<text x="220" y="100" text-anchor="middle" font-size="11" fill="#1f2937">2</text>
+<line x1="290" y1="75" x2="290" y2="82" stroke="#1f2937" stroke-width="1"/>
+<text x="290" y="100" text-anchor="middle" font-size="11" fill="#1f2937">3</text>
+<line x1="360" y1="75" x2="360" y2="82" stroke="#1f2937" stroke-width="1"/>
+<text x="360" y="100" text-anchor="middle" font-size="11" fill="#1f2937">4</text>
+<line x1="430" y1="75" x2="430" y2="82" stroke="#1f2937" stroke-width="1"/>
+<text x="430" y="100" text-anchor="middle" font-size="11" fill="#1f2937">5</text>
+<line x1="500" y1="75" x2="500" y2="82" stroke="#1f2937" stroke-width="1"/>
+<text x="500" y="100" text-anchor="middle" font-size="11" fill="#1f2937">6</text>
+<line x1="570" y1="75" x2="570" y2="82" stroke="#1f2937" stroke-width="1"/>
+<text x="570" y="100" text-anchor="middle" font-size="11" fill="#1f2937">7</text>
+<line x1="640" y1="75" x2="640" y2="82" stroke="#1f2937" stroke-width="1"/>
+<text x="640" y="100" text-anchor="middle" font-size="11" fill="#1f2937">8</text>
+<line x1="710" y1="75" x2="710" y2="82" stroke="#1f2937" stroke-width="1"/>
+<text x="710" y="100" text-anchor="middle" font-size="11" fill="#1f2937">9</text>
+<line x1="780" y1="75" x2="780" y2="82" stroke="#1f2937" stroke-width="1"/>
+<text x="780" y="100" text-anchor="middle" font-size="11" fill="#1f2937">10</text>
+<line x1="850" y1="75" x2="850" y2="82" stroke="#1f2937" stroke-width="1"/>
+<text x="850" y="100" text-anchor="middle" font-size="11" fill="#1f2937">11</text>
+<line x1="920" y1="75" x2="920" y2="82" stroke="#1f2937" stroke-width="1"/>
+<text x="920" y="100" text-anchor="middle" font-size="11" fill="#1f2937">12</text>
+<line x1="990" y1="75" x2="990" y2="82" stroke="#1f2937" stroke-width="1"/>
+<text x="990" y="100" text-anchor="middle" font-size="11" fill="#1f2937">13</text>
+<line x1="1060" y1="75" x2="1060" y2="82" stroke="#1f2937" stroke-width="1"/>
+<text x="1060" y="100" text-anchor="middle" font-size="11" fill="#1f2937">14</text>
+<line x1="1130" y1="75" x2="1130" y2="82" stroke="#1f2937" stroke-width="1"/>
+<text x="1130" y="100" text-anchor="middle" font-size="11" fill="#1f2937">15</text>
+<line x1="1200" y1="75" x2="1200" y2="82" stroke="#1f2937" stroke-width="1"/>
+<text x="1200" y="100" text-anchor="middle" font-size="11" fill="#1f2937">16</text>
+</svg>

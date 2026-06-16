@@ -1,0 +1,16 @@
+Algorithm,Task,Waiting Time,Turnaround Time,Response Time,Completion Time
+FCFS,C1,6,11,6,14
+FCFS,P1,3,6,3,7
+FCFS,R1,0,4,0,4
+FCFS,R2,10,12,10,16
+FCFS,V1,5,7,5,9
+Priority,C1,1,6,1,9
+Priority,P1,7,10,0,11
+Priority,R1,10,14,0,14
+Priority,R2,10,12,10,16
+Priority,V1,0,2,0,4
+Round Robin,C1,8,13,5,16
+Round Robin,P1,9,12,1,13
+Round Robin,R1,4,8,0,8
+Round Robin,R2,6,8,6,12
+Round Robin,V1,2,4,2,6

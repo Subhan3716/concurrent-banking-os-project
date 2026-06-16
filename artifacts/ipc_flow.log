@@ -1,0 +1,8 @@
+producer sent REQ-1 -> deposit 500 on ACC-100
+producer sent REQ-2 -> withdraw 200 on ACC-100
+producer sent REQ-3 -> deposit 350 on ACC-200
+producer sent REQ-4 -> withdraw 100 on ACC-200
+server responded REQ-1 -> success (balance=1500)
+server responded REQ-2 -> success (balance=1300)
+server responded REQ-3 -> success (balance=850)
+server responded REQ-4 -> success (balance=750)

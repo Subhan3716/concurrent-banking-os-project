@@ -1,0 +1,143 @@
+compile and run
+1. nano task1.cpp
+2. g++ -std=c++17 task1.cpp -o task1 -pthread
+3. ./task1
+
+menu
+1 = cpu scheduling
+2 = synchronization
+3 = banker's algorithm
+4 = ipc / message passing
+5 = memory management
+6 = run complete project and generate report + artifacts
+7 = run built-in validation
+0 = exit
+
+important
+- use names without spaces
+- use account ids like ACC-100 and ACC-200
+- after each module finishes, enter 0 to return to the main menu
+
+sample inputs for option 1 custom scheduling
+choice: 1
+mode: 2
+number of tasks: 3
+task 1
+task id: A
+customer name: Ali
+customer type: Regular
+arrival time: 0
+burst time: 4
+priority: 1
+task 2
+task id: B
+customer name: Sara
+customer type: Premium
+arrival time: 1
+burst time: 3
+priority: 3
+task 3
+task id: C
+customer name: Hamza
+customer type: VIP
+arrival time: 2
+burst time: 2
+priority: 5
+round robin quantum: 2
+
+sample inputs for option 2 custom shared account
+choice: 2
+mode: 2
+initial balance: 1000
+number of operations: 4
+operation 1
+actor name: A1
+type: deposit
+amount: 300
+operation 2
+actor name: A2
+type: withdraw
+amount: 150
+operation 3
+actor name: A3
+type: withdraw
+amount: 400
+operation 4
+actor name: A4
+type: deposit
+amount: 200
+
+sample inputs for option 2 custom payroll
+choice: 2
+mode: 3
+employee count: 10
+salary per employee: 150
+semaphore limit: 2
+
+sample inputs for option 3 custom banker
+choice: 3
+mode: 2
+number of resource types: 3
+number of clients/processes: 3
+available[0]: 3
+available[1]: 3
+available[2]: 2
+client name: P1
+max[0]: 7
+max[1]: 5
+max[2]: 3
+allocation[0]: 0
+allocation[1]: 1
+allocation[2]: 0
+client name: P2
+max[0]: 3
+max[1]: 2
+max[2]: 2
+allocation[0]: 2
+allocation[1]: 0
+allocation[2]: 0
+client name: P3
+max[0]: 9
+max[1]: 0
+max[2]: 2
+allocation[0]: 3
+allocation[1]: 0
+allocation[2]: 2
+enter client name for request: P2
+request[0]: 1
+request[1]: 0
+request[2]: 1
+
+sample inputs for option 4 custom ipc
+choice: 4
+mode: 2
+number of requests: 2
+request 1
+request id: R1
+customer name: Ali
+operation: deposit
+account id: ACC-100
+amount: 500
+request 2
+request id: R2
+customer name: Sara
+operation: withdraw
+account id: ACC-200
+amount: 100
+
+sample inputs for option 5 custom memory
+choice: 5
+mode: 2
+number of frames: 3
+number of page references: 8
+page 1: A
+page 2: B
+page 3: C
+page 4: A
+page 5: D
+page 6: B
+page 7: E
+page 8: A
+
+fastest way for full assignment output
+choice: 6

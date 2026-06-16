@@ -1,0 +1,10 @@
+safe sequence: Loan-B, Loan-D, Loan-E, Loan-A, Loan-C
+request granted for Loan-B.
+request denied for Loan-A because it leads to an unsafe state.
+
+need matrix:
+Loan-A: 7 4 3
+Loan-B: 1 2 2
+Loan-C: 6 0 0
+Loan-D: 0 1 1
+Loan-E: 4 3 1
